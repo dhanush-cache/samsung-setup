@@ -1,0 +1,65 @@
+from pathlib import Path
+
+source = Path("/sdcard/Apps")
+
+to_freezze = [
+    "com.google.android.adservices.api",
+    "com.google.android.gms.supervision",
+    "com.google.android.partnersetup",
+    "com.samsung.android.app.contacts",
+    "com.samsung.android.app.omcagent",
+    "com.samsung.android.app.updatecenter",
+    "com.samsung.android.dialer",
+    "com.samsung.android.honeyboard",
+]
+
+to_uninstall = [
+    "com.android.chrome",
+    "com.aura.oobe.samsung",
+    "com.facebook.appmanager",
+    "com.facebook.services",
+    "com.facebook.system",
+    "com.google.android.projection.gearhead",
+    "com.google.android.youtube",
+    "com.hiya.star",
+    "com.microsoft.skydrive",
+    "com.mygalaxy",
+    "com.opera.max.oem",
+    "com.samsung.android.app.spage",
+    "com.samsung.android.app.watchmanagerstub",
+    "com.samsung.android.aremoji",
+    "com.samsung.android.aremojieditor",
+    "com.samsung.android.calendar",
+    "com.samsung.android.game.gamehome",
+    "com.samsung.android.game.gametools",
+    "com.samsung.android.game.gos",
+    "com.samsung.android.mapsagent",
+    "com.samsung.android.messaging",
+    "com.samsung.android.scloud",
+    "com.samsung.android.scpm",
+    "com.samsung.android.spaymini",
+    "com.samsung.android.stickercenter",
+    "com.samsung.android.svcagent",
+    "com.samsung.android.themecenter",
+    "com.samsung.android.themestore",
+    "com.samsung.ecomm.global.in",
+    "com.sec.android.app.samsungapps",
+    "com.sec.android.daemonapp",
+    "com.sec.android.easyMover.Agent",
+    "com.sec.android.easyMover",
+    "com.sec.android.mimage.avatarstickers",
+]
+
+to_install_from_playstore = [
+    "com.google.android.apps.bard",
+    "com.google.android.calculator",
+    "com.google.android.contacts",
+    "com.google.android.dialer",
+    "com.google.android.inputmethod.latin",
+    "com.google.ar.lens",
+    "com.openai.chatgpt",
+    "com.whatsapp",
+    "org.kde.kdeconnect_tp",
+    "org.mozilla.firefox",
+    "pl.solidexplorer2",
+]
